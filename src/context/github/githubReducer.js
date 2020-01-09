@@ -32,6 +32,6 @@ export default (state, action) => {
                 loading: true
             }
             default:
-                return {}
+                return state;
     }
 }
